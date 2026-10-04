@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#06111f">
+  <meta name="description" content="GLtec — soluções em tecnologia, criação de sites, suporte técnico, design gráfico e loja digital.">
+  <title>GLtec | Soluções em Tecnologia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topline"></div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="GLtec - página inicial">
+      <span class="brand-mark">GL</span><span class="brand-name">tec</span>
+      <span class="brand-sub">SOLUÇÕES EM<br><b>TECNOLOGIA</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#inicio">Início</a><a href="#servicos">Serviços</a><a href="#loja">Loja <span class="cart-count nav-count">0</span></a>
+      <a href="#patrocinadores">Patrocinadores</a><a href="#afiliados">Afiliados</a><a href="#design">Design gráfico</a><a href="#equipe">Equipe</a><a href="#suporte">Suporte</a>
+    </nav>
+    <button class="cart-button" id="openCart" aria-label="Abrir carrinho">🛒 <span class="cart-count" id="headerCartCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="pulse"></span> TECNOLOGIA QUE MOVE IDEIAS</span>
+        <h1>Soluções digitais.<br><span>Resultados reais.</span></h1>
+        <p>A GLtec conecta tecnologia, criatividade e atendimento para ajudar pessoas e empresas a evoluírem no ambiente digital e presencial.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#servicos">Explorar serviços <span>↗</span></a><a class="btn btn-ghost" href="#equipe">Conheça a equipe</a></div>
+        <div class="hero-metrics"><div><strong>360°</strong><small>Soluções integradas</small></div><div><strong>Online + presencial</strong><small>Atendimento flexível</small></div><div><strong>GLtec</strong><small>Inovação e parceria</small></div></div>
+      </div>
+      <div class="hero-visual" aria-label="Ilustração tecnológica">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="chip"><span>GL</span><small>TECH SYSTEM</small></div>
+        <div class="floating-card card-a"><span class="mini-icon">⌘</span><div><b>TECNOLOGIA</b><small>Soluções inteligentes</small></div></div>
+        <div class="floating-card card-b"><span class="mini-icon">✦</span><div><b>CRIATIVIDADE</b><small>Ideias que ganham forma</small></div></div>
+        <div class="circuit circuit-a"></div><div class="circuit circuit-b"></div>
+      </div>
+    </section>
+
+    <section class="intro-strip section-wrap">
+      <div class="strip-icon">⌁</div><div><b>Mais que serviços: uma parceria.</b><p>Nosso objetivo é facilitar o acesso à tecnologia com soluções claras, suporte próximo e propostas adaptadas à necessidade de cada cliente.</p></div>
+      <a href="#suporte" class="text-link">Fale com a GLtec ↗</a>
+    </section>
+
+    <section class="section-wrap section-block" id="servicos">
+      <div class="section-heading"><div><span class="eyebrow">O QUE FAZEMOS</span><h2>Nosso catálogo de <span>serviços</span></h2></div><p>Conheça nossas áreas de atuação e fale com a equipe para receber uma proposta personalizada.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><div class="service-art art-web"><span>&lt;/&gt;</span><i>WEB DEVELOPMENT</i></div><div class="card-content"><span class="card-index">01 / DIGITAL</span><h3>Criação de sites</h3><p>Sites institucionais, páginas de divulgação, portfólios e vitrines digitais com visual profissional e adaptação para celular.</p><ul><li>Layout personalizado</li><li>HTML, CSS e JavaScript</li><li>Orientação para publicação</li></ul><a class="card-link contact-service" data-service="Criação de sites" href="#suporte">Solicitar orçamento ↗</a></div></article>
+        <article class="service-card"><div class="service-art art-tech"><span>⚙</span><i>TECH SUPPORT</i></div><div class="card-content"><span class="card-index">02 / ASSISTÊNCIA</span><h3>Assistência técnica</h3><p>Atendimento em informática e mecânica, com avaliação inicial, orientação e encaminhamento ao profissional adequado.</p><ul><li>Informática e computadores</li><li>Mecânica e manutenção</li><li>Administração e organização</li></ul><a class="card-link contact-service" data-service="Assistência técnica" href="#suporte">Encontrar um técnico ↗</a></div></article>
+        <article class="service-card"><div class="service-art art-games"><span>⌖</span><i>GAMING</i></div><div class="card-content"><span class="card-index">03 / GAMES</span><h3>Games e Steam</h3><p>Orientação para encontrar jogos e ofertas digitais, sempre respeitando as regras das plataformas e a segurança das contas.</p><ul><li>Pesquisa de jogos</li><li>Ajuda com instalação</li><li>Orientação para compra segura</li></ul><a class="card-link contact-service" data-service="Games e Steam" href="#suporte">Consultar disponibilidade ↗</a></div></article>
+        <article class="service-card"><div class="service-art art-stream"><span>▶</span><i>LIVE & STREAM</i></div><div class="card-content"><span class="card-index">04 / CRIADORES</span><h3>Suporte para streamers</h3><p>Apoio para criadores que querem estruturar suas transmissões, organizar o canal e melhorar a apresentação da marca.</p><ul><li>Configuração e orientação</li><li>Identidade para canal</li><li>Planejamento de conteúdo</li></ul><a class="card-link contact-service" data-service="Suporte para streamers" href="#suporte">Quero começar ↗</a></div></article>
+        <article class="service-card"><div class="service-art art-business"><span>↗</span><i>BUSINESS LAB</i></div><div class="card-content"><span class="card-index">05 / NEGÓCIOS</span><h3>Investimento e empreendedorismo</h3><p>Conteúdo introdutório e apoio para estruturar ideias, organizar projetos e compreender oportunidades de negócio.</p><ul><li>Planejamento de projetos</li><li>Organização de ideias</li><li>Conteúdo educativo</li></ul><a class="card-link contact-service" data-service="Investimento e empreendedorismo" href="#suporte">Conhecer propostas ↗</a></div></article>
+        <article class="service-card"><div class="service-art art-social"><span>◎</span><i>DIGITAL PRESENCE</i></div><div class="card-content"><span class="card-index">06 / MARKETING</span><h3>Presença digital</h3><p>Orientação para divulgar marcas e perfis com campanhas, conteúdo e estratégias de crescimento sustentável.</p><ul><li>Planejamento de conteúdo</li><li>Campanhas de divulgação</li><li>Estratégias de alcance</li></ul><a class="card-link contact-service" data-service="Presença digital e marketing" href="#suporte">Montar uma proposta ↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="team-section section-block" id="equipe">
+      <div class="section-wrap">
+        <div class="section-heading"><div><span class="eyebrow">QUEM FAZ ACONTECER</span><h2>Nossa <span>equipe</span></h2></div><p>Profissionais com áreas de atuação diferentes, unidos pelo compromisso com um atendimento claro e responsável.</p></div>
+        <div class="team-grid">
+          <article class="person-card mechanic"><div class="person-photo photo-mechanic" role="img" aria-label="Imagem ilustrativa verde de mecânico trabalhando"></div><div class="person-info"><span class="role-tag green-tag">TÉCNICO DE MECÂNICA</span><h3>Gabriel Santana</h3><a class="person-phone" href="https://wa.me/5521976163909" target="_blank" rel="noopener">◉  (21) 97616-3909</a><p>Profissional da área de mecânica, voltado à avaliação, manutenção preventiva e identificação de problemas. Atua com atenção aos detalhes, segurança e explicação clara das necessidades de cada serviço.</p><div class="skill-list"><span>Diagnóstico</span><span>Manutenção</span><span>Orientação</span></div><a class="btn btn-outline green-outline" href="https://wa.me/5521976163909?text=Ol%C3%A1%2C%20Gabriel!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20servi%C3%A7os%20de%20mec%C3%A2nica." target="_blank" rel="noopener">Falar com Gabriel ↗</a></div></article>
+          <article class="person-card"><div class="person-photo photo-computer" role="img" aria-label="Imagem ilustrativa de técnico trabalhando em computador"></div><div class="person-info"><span class="role-tag">TÉCNICO DE INFORMÁTICA</span><h3>Lucas Rizo</h3><a class="person-phone" href="https://wa.me/5521982210779" target="_blank" rel="noopener">◉  (21) 98221-0779</a><p>Técnico de informática com foco em hardware, software e suporte a computadores. Ajuda na identificação de falhas, instalação e configuração de sistemas, manutenção e orientação para uso seguro dos equipamentos.</p><div class="skill-list"><span>Hardware</span><span>Software</span><span>Suporte</span></div><a class="btn btn-outline" href="https://wa.me/5521982210779?text=Ol%C3%A1%2C%20Lucas!%20Gostaria%20de%20suporte%20em%20inform%C3%A1tica." target="_blank" rel="noopener">Falar com Lucas ↗</a></div></article>
+          <article class="person-card"><div class="person-photo photo-admin" role="img" aria-label="Imagem ilustrativa de profissional em ambiente administrativo"></div><div class="person-info"><span class="role-tag">TÉCNICO DE ADMINISTRAÇÃO</span><h3>Guilherme Mendes</h3><a class="person-phone" href="https://wa.me/5521984801837" target="_blank" rel="noopener">◉ Contato via GLtec</a><p>Profissional da área administrativa, com foco em organização de rotinas, planejamento, controle de tarefas e apoio a processos. Busca ajudar pessoas e pequenos negócios a trabalharem com mais clareza, produtividade e eficiência.</p><div class="skill-list"><span>Organização</span><span>Planejamento</span><span>Processos</span></div><a class="btn btn-outline" href="https://wa.me/5521984801837?text=Ol%C3%A1%2C%20GLtec!%20Gostaria%20de%20falar%20com%20Guilherme%20Mendes%20sobre%20administra%C3%A7%C3%A3o." target="_blank" rel="noopener">Solicitar contato ↗</a></div></article>
+        </div>
+        <div class="design-profile" id="design"><div class="design-visual"><span>✳</span><b>DESIGN<br>STUDIO</b><small>CRIATIVIDADE EM FOCO</small></div><div class="design-copy"><span class="role-tag purple-tag">DESIGN GRÁFICO</span><h3>Kaylly Wiliam</h3><a class="person-phone" href="https://wa.me/5521993049516" target="_blank" rel="noopener">◉  (21) 99304-9516</a><p>Designer gráfico criativo e versátil, dedicado a transformar ideias em peças visuais marcantes. Desenvolve materiais para redes sociais, logotipos, identidade visual, banners, cartazes e artes digitais alinhadas à personalidade de cada marca.</p><div class="skill-list"><span>Identidade visual</span><span>Artes para redes</span><span>Banners</span></div><a class="btn btn-purple" href="https://wa.me/5521993049516?text=Ol%C3%A1%2C%20Kaylly!%20Gostaria%20de%20um%20or%C3%A7amento%20de%20design%20gr%C3%A1fico." target="_blank" rel="noopener">Falar com Kaylly ↗</a></div></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="loja">
+      <div class="section-heading"><div><span class="eyebrow">GLTEC STORE</span><h2>Produtos em <span>destaque</span></h2></div><p>Vitrine demonstrativa. Confirme disponibilidade, preço e entrega com a equipe antes de concluir uma compra.</p></div>
+      <div class="shop-toolbar"><span id="productCount">3 produtos demonstrativos</span><button class="btn btn-ghost btn-small" id="viewCart">Ver carrinho 🛒</button></div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-id="fone-bt" data-name="Fone Bluetooth" data-price="89.90"><div class="product-image product-headphone"><span>ÁUDIO</span><b>BT</b></div><div class="product-info"><span class="product-category">ACESSÓRIOS</span><h3>Fone Bluetooth</h3><p>Produto demonstrativo; modelo e disponibilidade sob consulta.</p><div class="product-bottom"><strong>R$ 89,90</strong><button class="add-cart" aria-label="Adicionar Fone Bluetooth ao carrinho">＋</button></div></div></article>
+        <article class="product-card" data-id="mouse-gamer" data-name="Mouse Gamer" data-price="69.90"><div class="product-image product-mouse"><span>GAMING</span><b>GX</b></div><div class="product-info"><span class="product-category">PERIFÉRICOS</span><h3>Mouse Gamer</h3><p>Produto demonstrativo; consulte as especificações disponíveis.</p><div class="product-bottom"><strong>R$ 69,90</strong><button class="add-cart" aria-label="Adicionar Mouse Gamer ao carrinho">＋</button></div></div></article>
+        <article class="product-card" data-id="teclado" data-name="Teclado USB" data-price="79.90"><div class="product-image product-keyboard"><span>SETUP</span><b>⌨</b></div><div class="product-info"><span class="product-category">PERIFÉRICOS</span><h3>Teclado USB</h3><p>Produto demonstrativo; confirme modelo e estoque com a GLtec.</p><div class="product-bottom"><strong>R$ 79,90</strong><button class="add-cart" aria-label="Adicionar Teclado USB ao carrinho">＋</button></div></div></article>
+      </div>
+      <p class="notice">Os produtos e preços acima são exemplos para demonstrar o funcionamento do catálogo, não uma oferta confirmada.</p>
+    </section>
+
+    <section class="partner-section section-block" id="patrocinadores"><div class="section-wrap">
+      <div class="section-heading"><div><span class="eyebrow">CONEXÕES QUE FORTALECEM</span><h2>Patrocinadores e <span>parceiros</span></h2></div><p>Espaço reservado para apresentar empresas parceiras, suas marcas, descrições, sites e contatos.</p></div>
+      <div class="partner-grid"><article class="partner-card"><div class="partner-logo">LOGO<br><small>PARCEIRO 01</small></div><div><span class="role-tag">PARCEIRO</span><h3>Sua empresa aqui</h3><p>Área para uma breve apresentação da empresa, seus produtos e os benefícios da parceria com a GLtec.</p><span class="partner-detail">Site e telefone: adicionar após confirmação</span></div><a class="card-link" href="#suporte">Cadastrar parceria ↗</a></article><article class="partner-card"><div class="partner-logo">LOGO<br><small>PARCEIRO 02</small></div><div><span class="role-tag">PATROCINADOR</span><h3>Marca parceira</h3><p>Apresente aqui a história da empresa, seu segmento de atuação e os serviços oferecidos ao público.</p><span class="partner-detail">Site e telefone: adicionar após confirmação</span></div><a class="card-link" href="#suporte">Cadastrar parceria ↗</a></article></div>
+    </div></section>
+
+    <section class="section-wrap section-block affiliate-section" id="afiliados">
+      <div class="affiliate-copy"><span class="eyebrow">CRESÇA COM A GENTE</span><h2>Seja um <span>afiliado GLtec</span></h2><p>Indique nossos serviços, conecte pessoas a soluções tecnológicas e construa uma parceria com condições negociadas de forma transparente.</p><div class="benefit-grid"><div><b>01</b><strong>Comissão negociável</strong><small>Percentual definido por escrito conforme o serviço e o acordo.</small></div><div><b>02</b><strong>Materiais de divulgação</strong><small>Orientações e materiais de apoio sujeitos à disponibilidade.</small></div><div><b>03</b><strong>Parceria transparente</strong><small>Regras, prazos, atribuição das indicações e pagamentos combinados antes de começar.</small></div></div><a class="btn btn-primary" href="https://wa.me/5521984801837?text=Ol%C3%A1%2C%20GLtec!%20Tenho%20interesse%20em%20ser%20afiliado%20e%20gostaria%20de%20conhecer%20as%20condi%C3%A7%C3%B5es." target="_blank" rel="noopener">Quero ser afiliado ↗</a></div>
+      <div class="affiliate-panel"><div class="panel-symbol">GL<span>+</span></div><span class="eyebrow">PROGRAMA DE PARCERIAS</span><h3>Seu networking pode gerar oportunidades.</h3><p>Entre em contato para negociar com a equipe o formato de parceria, as responsabilidades e as condições comerciais.</p><div class="panel-line"><span>✓</span> Proposta personalizada</div><div class="panel-line"><span>✓</span> Condições acordadas previamente</div><div class="panel-line"><span>✓</span> Canal direto com a GLtec</div></div>
+    </section>
+
+    <section class="support-section section-block" id="suporte"><div class="section-wrap support-layout">
+      <div><span class="eyebrow">ESTAMOS AQUI PARA AJUDAR</span><h2>Como podemos <span>ajudar?</span></h2><p>Conte um pouco sobre o que precisa. Você pode enviar sua solicitação pelo formulário e continuar pelo WhatsApp oficial da GLtec.</p><div class="support-contact"><div class="support-icon">◉</div><div><small>WHATSAPP COMERCIAL</small><strong>(21) 98480-1837</strong><a href="https://wa.me/5521984801837" target="_blank" rel="noopener">Abrir conversa ↗</a></div></div><div class="support-note">Atendimento online e presencial mediante agendamento. A GLtec não possui loja física aberta ao público.</div></div>
+      <form class="support-form" id="supportForm"><h3>Fale com um atendente</h3><label for="clientName">Seu nome</label><input id="clientName" name="clientName" required placeholder="Como podemos chamar você?"><label for="clientContact">E-mail ou telefone (opcional)</label><input id="clientContact" name="clientContact" placeholder="Seu contato"><label for="supportTopic">Assunto</label><select id="supportTopic" name="supportTopic" required><option value="">Selecione uma opção</option><option>Criação de sites</option><option>Assistência técnica</option><option>Games e Steam</option><option>Suporte para streamers</option><option>Investimento e empreendedorismo</option><option>Presença digital e marketing</option><option>Design gráfico</option><option>Loja e produtos</option><option>Patrocínio ou afiliação</option><option>Outro assunto</option></select><label for="supportMessage">Como podemos ajudar?</label><textarea id="supportMessage" name="supportMessage" rows="4" required placeholder="Descreva sua necessidade..."></textarea><button class="btn btn-primary btn-full" type="submit">Enviar pelo WhatsApp ↗</button><small>Ao enviar, o WhatsApp será aberto com a mensagem preenchida para você revisar e enviar.</small></form>
+    </div></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-main section-wrap"><a class="brand footer-brand" href="#inicio"><span class="brand-mark">GL</span><span class="brand-name">tec</span><span class="brand-sub">SOLUÇÕES EM<br><b>TECNOLOGIA</b></span></a><p>Tecnologia, suporte e criatividade para transformar ideias em soluções.</p><div class="footer-links"><a href="#servicos">Serviços</a><a href="#loja">Loja</a><a href="#equipe">Equipe</a><a href="#suporte">Suporte</a></div><a class="footer-whatsapp" href="https://wa.me/5521984801837" target="_blank" rel="noopener">WhatsApp: (21) 98480-1837 ↗</a></div><div class="footer-bottom"><span>© <span id="currentYear"></span> GLtec. Todos os direitos reservados.</span><span>Atendimento com agendamento · Online e presencial</span></div></footer>
+
+  <div class="cart-overlay" id="cartOverlay" hidden></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Carrinho de compras" aria-hidden="true">
+    <div class="cart-head"><div><span class="eyebrow">GLTEC STORE</span><h2>Seu carrinho</h2></div><button class="icon-button" id="closeCart" aria-label="Fechar carrinho">✕</button></div>
+    <div class="cart-items" id="cartItems"><p class="empty-cart">Seu carrinho ainda está vazio.</p></div>
+    <div class="cart-footer"><div class="cart-total"><span>Total estimado</span><strong id="cartTotal">R$ 0,00</strong></div><p>Valores demonstrativos; a equipe confirmará preço, estoque e entrega.</p><button class="btn btn-primary btn-full" id="checkoutCart">Consultar pedido pelo WhatsApp ↗</button><button class="clear-cart" id="clearCart">Limpar carrinho</button></div>
+  </aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
